@@ -7,7 +7,7 @@ fun main() = runBlocking {
 /*
     launch {
         delay(1000L)
-        println("KKON!")
+        println("Nürnberg!")
     }
     println("Hallo")
 */
@@ -22,7 +22,7 @@ class Coroutines {
     fun hello() = runBlocking {
         launch {
             delay(1000L)
-            println("KKON!")
+            println("Nürnberg!")
         }
         println("Hallo")
     }
@@ -57,18 +57,18 @@ class Coroutines {
 
     suspend fun delayedWorld() {
         delay(1000L)
-        println("KKON!")
+        println("Nürnberg!")
     }
 
     suspend fun delayedWorlds() = coroutineScope {
         launch {
             delay(2000L)
-            println("Digital")
+            println("Nürnberg")
         }
 
         launch {
             delay(1000L)
-            println("KKON")
+            println("Herbstcampus")
         }
         println("Hallo")
     }

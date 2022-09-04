@@ -6,7 +6,7 @@ public class BlockingDemo {
         Thread t = new Thread(() -> {
             try {
                 Thread.sleep(1000);
-                System.out.println("KKON!");
+                System.out.println("Nürnberg!");
             } catch (InterruptedException e) { /**/ }
         });
         System.out.print("Hallo ");

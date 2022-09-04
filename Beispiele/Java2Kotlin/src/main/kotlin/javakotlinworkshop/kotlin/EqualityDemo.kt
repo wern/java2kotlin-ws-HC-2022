@@ -4,7 +4,7 @@ import java.nio.charset.Charset
 
 fun main(args: Array<String>) {
 
-    val a = "Hallo KKON"
+    val a = "Hallo Nürnberg!"
     val b = String(a.toByteArray(Charset.defaultCharset()),
             Charset.defaultCharset())
 

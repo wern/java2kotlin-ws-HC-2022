@@ -5,7 +5,7 @@ import java.nio.charset.Charset;
 public class EqualityDemo {
 
     public static void main(String[] args) {
-        var a = "Hallo KKON";
+        var a = "Hallo Nürnberg!";
         var b = new String(a.getBytes(Charset.defaultCharset()),
                 Charset.defaultCharset());
 

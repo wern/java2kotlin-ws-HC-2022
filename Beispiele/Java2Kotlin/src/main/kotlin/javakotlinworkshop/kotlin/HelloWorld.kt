@@ -1,3 +1,3 @@
 package javakotlinworkshop.kotlin
 
-fun main() = println("Hallo KKON")
+fun main() = println("Hallo Nürnberg!")
